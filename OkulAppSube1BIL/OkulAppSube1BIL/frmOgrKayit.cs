@@ -45,6 +45,8 @@ namespace OkulAppSube1BIL
                 MessageBox.Show("Bilinmeyen Hata!!");
             }
         }
+
+        
     }
 
 
@@ -67,8 +69,8 @@ namespace OkulAppSube1BIL
             throw new NotImplementedException();
         }
 
-        //
+        
     }
 }
 
-//Garbage Collector
+

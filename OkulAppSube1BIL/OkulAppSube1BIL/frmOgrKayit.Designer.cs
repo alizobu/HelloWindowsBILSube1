@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.grpOgrenci = new System.Windows.Forms.GroupBox();
-            this.txtAd = new System.Windows.Forms.TextBox();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
-            this.txtNumara = new System.Windows.Forms.TextBox();
-            this.lblAd = new System.Windows.Forms.Label();
-            this.lblSoyad = new System.Windows.Forms.Label();
             this.lblNumara = new System.Windows.Forms.Label();
+            this.lblSoyad = new System.Windows.Forms.Label();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.txtNumara = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtAd = new System.Windows.Forms.TextBox();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.grpOgrenci.SuspendLayout();
             this.SuspendLayout();
@@ -47,66 +47,76 @@
             this.grpOgrenci.Controls.Add(this.txtNumara);
             this.grpOgrenci.Controls.Add(this.txtSoyad);
             this.grpOgrenci.Controls.Add(this.txtAd);
-            this.grpOgrenci.Location = new System.Drawing.Point(12, 12);
+            this.grpOgrenci.Location = new System.Drawing.Point(16, 15);
+            this.grpOgrenci.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpOgrenci.Name = "grpOgrenci";
-            this.grpOgrenci.Size = new System.Drawing.Size(339, 202);
+            this.grpOgrenci.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpOgrenci.Size = new System.Drawing.Size(452, 249);
             this.grpOgrenci.TabIndex = 0;
             this.grpOgrenci.TabStop = false;
             this.grpOgrenci.Text = "Öğrenci Bilgileri";
             // 
-            // txtAd
+            // lblNumara
             // 
-            this.txtAd.Location = new System.Drawing.Point(122, 72);
-            this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(100, 20);
-            this.txtAd.TabIndex = 0;
-            // 
-            // txtSoyad
-            // 
-            this.txtSoyad.Location = new System.Drawing.Point(122, 100);
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(100, 20);
-            this.txtSoyad.TabIndex = 1;
-            // 
-            // txtNumara
-            // 
-            this.txtNumara.Location = new System.Drawing.Point(122, 129);
-            this.txtNumara.Name = "txtNumara";
-            this.txtNumara.Size = new System.Drawing.Size(100, 20);
-            this.txtNumara.TabIndex = 2;
-            // 
-            // lblAd
-            // 
-            this.lblAd.AutoSize = true;
-            this.lblAd.Location = new System.Drawing.Point(70, 79);
-            this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(20, 13);
-            this.lblAd.TabIndex = 3;
-            this.lblAd.Text = "Ad";
+            this.lblNumara.AutoSize = true;
+            this.lblNumara.Location = new System.Drawing.Point(93, 162);
+            this.lblNumara.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNumara.Name = "lblNumara";
+            this.lblNumara.Size = new System.Drawing.Size(55, 16);
+            this.lblNumara.TabIndex = 5;
+            this.lblNumara.Text = "Numara";
             // 
             // lblSoyad
             // 
             this.lblSoyad.AutoSize = true;
-            this.lblSoyad.Location = new System.Drawing.Point(70, 107);
+            this.lblSoyad.Location = new System.Drawing.Point(93, 132);
+            this.lblSoyad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoyad.Name = "lblSoyad";
-            this.lblSoyad.Size = new System.Drawing.Size(37, 13);
+            this.lblSoyad.Size = new System.Drawing.Size(47, 16);
             this.lblSoyad.TabIndex = 4;
             this.lblSoyad.Text = "Soyad";
             // 
-            // lblNumara
+            // lblAd
             // 
-            this.lblNumara.AutoSize = true;
-            this.lblNumara.Location = new System.Drawing.Point(70, 132);
-            this.lblNumara.Name = "lblNumara";
-            this.lblNumara.Size = new System.Drawing.Size(44, 13);
-            this.lblNumara.TabIndex = 5;
-            this.lblNumara.Text = "Numara";
+            this.lblAd.AutoSize = true;
+            this.lblAd.Location = new System.Drawing.Point(93, 97);
+            this.lblAd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(24, 16);
+            this.lblAd.TabIndex = 3;
+            this.lblAd.Text = "Ad";
             // 
+            // txtNumara
+            // 
+            this.txtNumara.Location = new System.Drawing.Point(163, 159);
+            this.txtNumara.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumara.Name = "txtNumara";
+            this.txtNumara.Size = new System.Drawing.Size(132, 22);
+            this.txtNumara.TabIndex = 2;
+            // 
+            // txtSoyad
+            // 
+            this.txtSoyad.Location = new System.Drawing.Point(163, 123);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(132, 22);
+            this.txtSoyad.TabIndex = 1;
+            // 
+            // txtAd
+            // 
+            this.txtAd.Location = new System.Drawing.Point(163, 89);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(132, 22);
+            this.txtAd.TabIndex = 0;
+            
+            //
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(134, 227);
+            this.btnKaydet.Location = new System.Drawing.Point(179, 279);
+            this.btnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(100, 23);
+            this.btnKaydet.Size = new System.Drawing.Size(133, 28);
             this.btnKaydet.TabIndex = 6;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
@@ -114,11 +124,12 @@
             // 
             // frmOgrKayit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 269);
+            this.ClientSize = new System.Drawing.Size(484, 331);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.grpOgrenci);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmOgrKayit";
             this.Text = "Öğrenci Kayıt İşlemleri";
             this.grpOgrenci.ResumeLayout(false);

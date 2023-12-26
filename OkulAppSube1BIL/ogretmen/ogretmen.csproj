@@ -9,4 +9,10 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="cl2">
+      <HintPath>..\cl2\bin\Debug\netstandard2.0\cl2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

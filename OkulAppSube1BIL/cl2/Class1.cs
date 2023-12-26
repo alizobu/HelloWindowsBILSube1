@@ -1,23 +1,23 @@
-﻿using OkulApp.MODEL;
+﻿using Ogretmen.MODEL;
 using System;
 using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
 using DAL;
 
-namespace OkulApp.BLL
+namespace cl2
 {
-    public class OgrenciBL
+    public class OgretmenBL
     {
-        public bool OgrenciEkle(Ogrenci ogr)
+        public bool Ogretmenekle(Ogretmen.MODEL.Ogretmen ogr)
         {
             SqlParameter[] p = {
                              new SqlParameter("@Ad",ogr.Ad),
                              new SqlParameter("@Soyad",ogr.Soyad),
-                             new SqlParameter("@Numara",ogr.Numara)
+                             new SqlParameter("@TC",ogr.TC)
                          };
 
             Helper hlp = new Helper();
-            return hlp.ExecuteNonQuery("Insert into tblOgrenciler values(@Ad,@Soyad,@Numara)", p)>0;
+            return hlp.ExecuteNonQuery("Insert into tblogretmen values(@Ad,@Soyad,@TC)", p) > 0;
 
         }
     }
